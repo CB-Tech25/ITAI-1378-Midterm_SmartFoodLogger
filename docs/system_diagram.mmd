@@ -1,0 +1,6 @@
+flowchart LR
+    A[User uploads food photo] --> B[Resize and normalize image]
+    B --> C[Food classification model]
+    C --> D[Top predicted food label]
+    D --> E[Meal log entry]
+    E --> F[Optional calorie estimate]
